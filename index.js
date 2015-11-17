@@ -29,7 +29,7 @@ module.exports = forward = {
 				this.response.body = {status:200}
 			}
 			else {
-				this.response.body = yield this.app.mserv.action(name, params, headers)
+				this.response.body = yield this.app.mserv.invoke(name, params, headers)
 			}
 		}
 	},
