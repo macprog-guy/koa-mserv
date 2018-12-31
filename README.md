@@ -1,3 +1,6 @@
+# NOT MAINTAINED ANYMORE!
+If you would like to own this project I can transfer it to you along with all the other related projects.
+
 # Introduction
 Koa-mserv is used to facilitate the mapping of koa routes to mserv actions. It automatically forwards 
 credentials and request body to the service in question.
